@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>DESAFIO - HTML/CSS/JS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="titulo">HTML, CSS e JS</h1>
+    <p>Desafio Santander</p>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="exemplo-1.html">Adicionar Itens</a></li>
+        <li><a href="exemplo-2.html">Exclusão Usuários</a></li>
+        <li><a href="exemplo-3.html">Mover Imagem</a></li>
+      </ul>
+    </nav>
+    <div class="conteudo">
+      <input type="text" name="novo-item" id="novo-item">
+      <button onclick="addItem()">Adicionar Item</button>
+      <button onclick="ordenarItens()">Ordenar Itens</button>
+      <ul id="lista-itens" class="itens">
+        <li>JOÃO</li>
+      </ul>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
